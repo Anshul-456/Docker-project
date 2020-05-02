@@ -26,3 +26,4 @@ services:
     restart: always
 volumes:
   drupal_storage:
+  
