@@ -4,7 +4,7 @@ services:
   dbos:
     image: mysql:5.7
     volumes:
-            - my_storage:/var/lib/mysql
+            - drupal_storage:/var/lib/mysql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: rootpass
